@@ -39,36 +39,22 @@ IncludeTemplateLangFile(__FILE__);
 				<h1 class="sitename"><?=GetMessage("EXAM1_TYPE1_COMPANY_NAME")?></h1>
 			</a>
 
-			<nav id="navmenu" class="navmenu">
-				<ul>
-					<li><a href="#">Главная</a></li>
-					<li><a href="#">Пункт 1</a></li>
-					<li><a href="#">Пункт 1</a></li>
-					<li><a href="#">Пункт 3</a></li>
-					<li><a href="#">Пункт 4</a></li>
-					<li class="dropdown">
-						<a href="#"><span>Пункт 5 с подменю</span>
-							<i class="bi bi-chevron-down toggle-dropdown"></i>
-						</a>
-						<ul>
-							<li><a href="#">Пункт 1</a></li>
-							<li class="dropdown"><a href="#"><span>Пункт 2 с подменю</span> <i
-										class="bi bi-chevron-down toggle-dropdown"></i></a>
-								<ul>
-									<li><a href="#">Пункт 1</a></li>
-									<li><a href="#">Пункт 2</a></li>
-									<li><a href="#">Пункт 3</a></li>
-								</ul>
-							</li>
-							<li><a href="#">Пункт 2</a></li>
-							<li><a href="#">Пункт 3</a></li>
-							<li><a href="#">Пункт 4</a></li>
-						</ul>
-					</li>
-					<li><a href="#">Пункт 6</a></li>
-				</ul>
-				<i class="mobile-nav-toggle d-xl-none bi bi-list"></i>
-			</nav>
+			<?$APPLICATION->IncludeComponent(
+				"bitrix:menu",
+				"top_menu_exam1_1",
+				Array(
+					"ALLOW_MULTI_SELECT" => "N",
+					"CHILD_MENU_TYPE" => "left",
+					"DELAY" => "N",
+					"MAX_LEVEL" => "3",
+					"MENU_CACHE_GET_VARS" => array(""),
+					"MENU_CACHE_TIME" => "3600",
+					"MENU_CACHE_TYPE" => "A",
+					"MENU_CACHE_USE_GROUPS" => "Y",
+					"ROOT_MENU_TYPE" => "top",
+					"USE_EXT" => "N"
+				)
+			);?>
 
 		</div>
 	</header>

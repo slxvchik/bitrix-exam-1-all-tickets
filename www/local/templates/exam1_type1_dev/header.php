@@ -9,14 +9,15 @@ use Bitrix\Main\Application;?>
         <div class="container position-relative">
             <h1><?$APPLICATION->ShowTitle();?></h1>
             <p><?$APPLICATION->ShowProperty("page_text_under_title");?></p>
-            <nav class="breadcrumbs">
-                <ol>
-                    <li><a href="#">Главная</a></li>
-                    <li><a href="#">Раздел 1</a></li>
-                    <li><a href="#">Раздел 1.1</a></li>
-                    <li class="current">Заголовок страницы</li>
-                </ol>
-            </nav>
+
+            <?$APPLICATION->IncludeComponent("bitrix:breadcrumb", "dev_bread_exam1_1", Array(
+                "PATH" => "",	// Путь, для которого будет построена навигационная цепочка (по умолчанию, текущий путь)
+                    "SITE_ID" => "s1",	// Cайт (устанавливается в случае многосайтовой версии, когда DOCUMENT_ROOT у сайтов разный)
+                    "START_FROM" => "0",	// Номер пункта, начиная с которого будет построена навигационная цепочка
+                ),
+                false
+            );?>
+            
         </div>
     </div>
     <!-- End Page Title -->
