@@ -7,8 +7,8 @@ use Bitrix\Main\Application;?>
     <!-- Page Title -->
     <div class="page-title dark-background">
         <div class="container position-relative">
-            <h1>Заголовок страницы</h1>
-            <p>Короткий текст для страницы под H1</p>
+            <h1><?$APPLICATION->ShowTitle();?></h1>
+            <p><?$APPLICATION->ShowProperty("page_text_under_title");?></p>
             <nav class="breadcrumbs">
                 <ol>
                     <li><a href="#">Главная</a></li>

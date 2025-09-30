@@ -43,8 +43,8 @@ require_once $_SERVER["DOCUMENT_ROOT"] . "/local/templates/.default/include/head
                 <!-- Content Page Title -->
                 <div class="page-content-title">
                     <div class="position-relative">
-                        <h1>Заголовок страницы</h1>
-                        <p>Короткий текст для страницы под H1</p>
+                        <h1><?$APPLICATION->ShowTitle();?></h1>
+                        <p><?$APPLICATION->ShowProperty("page_text_under_title");?></p>
                         <nav class="breadcrumbs">
                             <ol>
                                 <li><a href="#">Главная</a></li>
