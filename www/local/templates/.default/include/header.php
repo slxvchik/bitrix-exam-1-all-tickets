@@ -35,7 +35,7 @@ IncludeTemplateLangFile(__FILE__);
 	<header id="header" class="header d-flex align-items-center">
 		<div class="container-fluid container-xl position-relative d-flex align-items-center justify-content-between">
 
-			<a href="#" class="logo d-flex align-items-center">
+			<a href="/" class="logo d-flex align-items-center">
 				<h1 class="sitename"><?=GetMessage("EXAM1_TYPE1_COMPANY_NAME")?></h1>
 			</a>
 
