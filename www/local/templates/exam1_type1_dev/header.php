@@ -21,10 +21,3 @@ use Bitrix\Main\Application;?>
     </div>
     <!-- End Page Title -->
 <? } ?>
-
-
-<!-- Starter Section Section -->
-<section class="starter-section section">
-
-    <div class="container">
-        <p>Произвольный блок</p>
