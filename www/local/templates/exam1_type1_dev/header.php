@@ -7,7 +7,7 @@ use Bitrix\Main\Application;?>
     <!-- Page Title -->
     <div class="page-title dark-background">
         <div class="container position-relative">
-            <h1><?$APPLICATION->ShowTitle();?></h1>
+            <h1><?$APPLICATION->ShowTitle(true);?></h1>
             <p><?$APPLICATION->ShowProperty("page_text_under_title");?></p>
 
             <?$APPLICATION->IncludeComponent("bitrix:breadcrumb", "dev_bread_exam1_1", Array(
