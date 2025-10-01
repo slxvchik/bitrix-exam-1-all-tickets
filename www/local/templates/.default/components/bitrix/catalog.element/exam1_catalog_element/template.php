@@ -15,12 +15,11 @@ if (!defined('B_PROLOG_INCLUDED') || B_PROLOG_INCLUDED !== true) die();
 
 			<div class="col-lg-4">
 				<div class="portfolio-info">
-					<h3>Проект</h3>
+					<h3><?=GetMessage("EXAM1_CATALOG_ELEMENT_PROJECT_NAME");?></h3>
 					<ul>
-						<li><strong>Услуги</strong>: <?=$arResult['SECTION']['NAME'];?></li>
-						<? foreach($arResult['PROPERTIES'] as $property) { ?>
-						<li><strong><?=$property['NAME'];?></strong>: <?=$property['VALUE'];?></li>
-						<? } ?>
+						<li><strong><?=GetMessage("EXAM1_CATALOG_ELEMENT_SERVICES_NAME");?></strong>: <?=$arResult['SECTION']['NAME'];?></li>
+						<li><strong><?=GetMessage("EXAM1_CATALOG_ELEMENT_BRANCH_NAME");?></strong>: <?=$arResult['PROPERTIES']['BUSINESS_SECTOR']['VALUE'];?></li>
+						<li><strong><?=GetMessage("EXAM1_CATALOG_ELEMENT_COMPANY_NAME");?></strong>: <?=$arResult['PROPERTIES']['CLIENT_NAME']['VALUE'];?></li>
 					</ul>
 				</div>
 				<div class="portfolio-description">
