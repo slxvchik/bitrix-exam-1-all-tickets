@@ -1,0 +1,11 @@
+.table-detail .label {
+	font-weight: 600;
+	color: rgba(1, 41, 112, 0.6);
+}
+.table-detail .row {
+	margin-bottom: 20px;
+}
+.table-detail .backurl {
+	margin-top: 40px;
+	margin-bottom: 20px;
+}

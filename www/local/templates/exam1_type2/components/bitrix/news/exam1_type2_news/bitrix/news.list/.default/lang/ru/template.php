@@ -1,0 +1,6 @@
+<?
+$MESS["EXAM1_TYPE2_NEWS_DATA_NAME"] = "Товар";
+$MESS["EXAM1_TYPE2_NEWS_DATA_CATEGORY"] = "Категория";
+$MESS["EXAM1_TYPE2_NEWS_DATA_CITY"] = "Город";
+$MESS["EXAM1_TYPE2_NEWS_DATA_QUANTITY"] = "Количество";
+?>
