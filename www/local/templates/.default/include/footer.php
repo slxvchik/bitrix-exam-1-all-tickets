@@ -6,23 +6,13 @@ use Bitrix\Main\Page\Asset;
     
     <footer id="footer" class="footer dark-background">
 
-        <div class="footer-search">
-            <div class="container">
-                <div class="row justify-content-center text-center">
-                    <div class="col-lg-6">
-                        <h4>Поиск</h4>
-                        <form action="#" method="post">
-                            <div class="search-form">
-                                <input class="input-seach" type="text" name="q">
-                                <input class="button-seach" name="s" type="submit" value="Найти">
-                            </div>
-                        </form>
-                    </div>
-                </div>
-            </div>
-        </div>
-
-
+        <?$APPLICATION->IncludeComponent(
+            "bitrix:search.form",
+            "exam1_form_search",
+            Array(
+                "PAGE" => "#SITE_DIR#search/"
+            )
+        );?>
 
         <div class="container footer-top">
             <div class="row gy-4">

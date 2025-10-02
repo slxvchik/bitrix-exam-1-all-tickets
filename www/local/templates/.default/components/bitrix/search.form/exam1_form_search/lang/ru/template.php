@@ -1,0 +1,4 @@
+<?
+$MESS ['EXAM1_FORM_SEARCH_TITLE'] = "Поиск";
+$MESS ['EXAM1_FORM_SEARCH_BUTTON'] = "Поиск";
+?>
