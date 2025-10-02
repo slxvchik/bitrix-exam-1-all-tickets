@@ -1,31 +1,32 @@
-<?php if(!defined("B_PROLOG_INCLUDED") || B_PROLOG_INCLUDED!==true)die();
+<?
 $aMenuLinks = Array(
 	Array(
 		"Дашборд", 
-		"statistic_na/dashboard/", 
+		"dashboard/", 
 		Array(), 
-		Array(), 
+		Array("menu_ico"=>"bi-grid"), 
 		"" 
 	),
 	Array(
 		"Основные", 
-		"statistic_na/main/", 
+		"main/", 
 		Array(), 
-		Array(), 
+		Array("menu_ico"=>"bi-menu-button-wide"), 
 		"" 
 	),
 	Array(
 		"Дополнительные", 
-		"statistic_na/extra/", 
+		"extra/", 
 		Array(), 
-		Array(), 
+		Array("menu_ico"=>"bi-files"), 
 		"" 
 	),
 	Array(
 		"Профиль", 
-		"statistic_na/profile/", 
+		"profile/", 
 		Array(), 
-		Array(), 
+		Array("menu_ico"=>"bi-person"), 
 		"" 
 	)
 );
+?>

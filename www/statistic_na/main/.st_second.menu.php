@@ -2,14 +2,14 @@
 $aMenuLinks = Array(
 	Array(
 		"Отчеты", 
-		"statistic_na/main/info/", 
+		"info/", 
 		Array(), 
 		Array(), 
 		"" 
 	),
 	Array(
 		"Данные", 
-		"statistic_na/main/table/", 
+		"table/", 
 		Array(), 
 		Array(), 
 		"" 
