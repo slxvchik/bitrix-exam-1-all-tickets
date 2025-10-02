@@ -1,4 +1,6 @@
 <?
+$PERM["statistic_na"]["7"]="R";
+$PERM["statistic_na"]["*"]="D";
 $PERM["about"]["6"]="W";
 $PERM["search"]["5"]="W";
 $PERM["services"]["5"]="W";
