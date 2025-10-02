@@ -1,5 +1,13 @@
 <?php
 $arUrlRewrite=array (
+  5 => 
+  array (
+    'CONDITION' => '#^/statistic_na/main/table/#',
+    'RULE' => '',
+    'ID' => 'bitrix:news',
+    'PATH' => '/statistic_na/main/table/index.php',
+    'SORT' => 100,
+  ),
   4 => 
   array (
     'CONDITION' => '#^/portfolio/#',
