@@ -1,0 +1,4 @@
+<?
+$MESS["EXAM1_TYPE2_AUTH_FORM_MY_PROFILE"] = "Мой профиль";
+$MESS["EXAM1_TYPE2_AUTH_FORM_LOGOUT_BUTTON"] = "Выйти";
+?>

@@ -1,0 +1,10 @@
+<?
+$MESS["EXAM1_TYPE2_AUTH_FORGOTPASSWD_PLEASE_LOGIN_OR_EMAIL"] = "Если вы забыли пароль, введите логин или E-Mail.";
+$MESS["EXAM1_TYPE2_AUTH_FORGOTPASSWD_PLEASE_CONTROL_LINE"] = "Контрольная строка для смены пароля будет выслана вам по E-Mail.";
+$MESS["EXAM1_TYPE2_AUTH_FORGOTPASSWD_LOGIN"] = "Логин";
+$MESS["EXAM1_TYPE2_AUTH_FORGOTPASSWD_EMAIL"] = "E-Mail";
+$MESS["EXAM1_TYPE2_AUTH_FORGOTPASSWD_CAPTCHA_LABEL"] = "Код на картинке";
+$MESS["EXAM1_TYPE2_AUTH_FORGOTPASSWD_PLEASE_CAPTCHA"] = "Заполните код";
+$MESS["EXAM1_TYPE2_AUTH_FORGOTPASSWD_BUTTON"] = "Выслать";
+$MESS["EXAM1_TYPE2_AUTH_FORGOTPASSWD_BACK_TO_AUTH"] = "Вернуться к авторизации";
+?>
